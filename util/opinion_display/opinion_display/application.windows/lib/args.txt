@@ -1,3 +1,0 @@
-
-opinion_display
-opinion_display.jar,core.jar,itext.jar,pdf.jar

@@ -120,9 +120,9 @@ public class Experiment {
     // cause trustees to behave according to biases specified in the .bias file
     public static final int MODE_BIAS = 16;
     // visibility flags (for delegation chains only - not complete!)
-    public static final int VISIBILITY_FULL = 701;
-    public static final int VISIBILITY_NEXT = 702;
-    public static final int VISIBILITY_NONE = 703;
+    //public static final int VISIBILITY_FULL = 701;
+    //public static final int VISIBILITY_NEXT = 702;
+    //public static final int VISIBILITY_NONE = 703;
     /**
      * Fields for filter types
      */
@@ -410,9 +410,9 @@ public class Experiment {
         // Object maintaining a history of states for the experiment, to allow
         // playback
         // if recording is active
-        if (record) {
-            history = new LinkedList<State>();
-        }
+        //if (record) {
+          //  history = new LinkedList<State>();
+        //}
     }
 
     /**
